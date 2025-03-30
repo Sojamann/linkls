@@ -35,6 +35,8 @@ odin build . -debug
 ```
 
 # TODO
+- [ ] use struct tagging for json (un)marshalling to produce
+      better names
 - [ ] improve handover of init options from lsp package to app package
 - [ ] searching on demand is kinda slow ... one could
     search every file in the background and monitor for file
